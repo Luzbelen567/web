@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<header>
+<div class="head1"> 
+    <div class="title1"> Soporte al cliente <br>775-932-701</div>
+    <div class="title2"> MOTO MUNDO</div>
+    <div class="title3">Carrito</div>
+</div>
+<div class="head2"> 
+    <div class="title4">
+        <nav>
+            <a href="#galeria">Galería</a>
+            <a href="#videos">Videos</a>
+            <a href="#caracteristicas">Características</a>
+            <a href="#mantenimiento">Mantenimiento</a>
+        </nav>
+        
+    </div>
+    <div class="title5">
+        <form class="search-form">
+        <input type="search" placeholder="Buscar...">
+        
+    </form></div>
+</div>
+</header>
+<section class="Baner">
+    <div class="content-banner">
+        <p>Motos</p>
+        <h2>LAS MEJORES<br />Motos</h2>
+        <a href="#">Comprar ahora</a>
+    </div>
+</section>
+<main class="main-content">
+    <section class="container container-features">
+        <div class="card-feature">
+            <i class="fa-solid fa-plane-up"></i>
+            <div class="feature-content">
+                <span>Envío gratuito a nivel mundial</span>
+                <p>En pedido superior a $29.990</p>
+            </div>
+        </div>
+        <div class="card-feature">
+            <i class="fa-solid fa-wallet"></i>
+            <div class="feature-content">
+                <span>Contrareembolso</span>
+                <p>100% garantía de devolución de dinero</p>
+            </div>
+        </div>
+        <div class="card-feature">
+            <i class="fa-solid fa-gift"></i>
+            <div class="feature-content">
+                <span>Tarjeta regalo especial</span>
+                <p>Ofrece bonos especiales con regalo</p>
+            </div>
+        </div>
+        <div class="card-feature">
+            <i class="fa-solid fa-headset"></i>
+            <div class="feature-content">
+                <span>Servicio al cliente 24/7</span>
+                <p>LLámenos 24/7 al 775-932-701</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container top-categories">
+        <h1 class="heading-1">Mejores Categorías</h1>
+        <div class="container-categories">
+            <div class="card-category category-moca">
+                <p>Motos Deportivas</p>
+                <span>Ver más</span>
+            </div>
+            <div class="card-category category-expreso">
+                <p>Motos Cruiser</p>
+                <span>Ver más</span>
+            </div>
+            <div class="card-category category-capuchino">
+                <p>Motos Cross</p>
+                <span>Ver más</span>
+            </div>
+            <div class="card-category category-tu">
+                <p>Motos Turing</p>
+                <span>Ver más</span>
+            </div>
+            <div class="card-category category-vi">
+                <p>Motos Vintage</p>
+                <span>Ver más</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <img
+            src="Img/1.jpg"
+            alt="Gallery Img1"
+            class="gallery-img-1"
+        /><img
+            src="Img/2.jpg"
+            alt="Gallery Img2"
+            class="gallery-img-2"
+        /><img
+            src="Img/3.jpg"
+            alt="Gallery Img3"
+            class="gallery-img-3"
+        /><img
+            src="Img/4.jpg"
+            alt="Gallery Img4"
+            class="gallery-img-4"
+        /><img
+            src="Img/5.jpg"
+            alt="Gallery Img5"
+            class="gallery-img-5"
+        />
+    </section>
+    <style>
+        /* Estilos para centrar y organizar los videos en cuadrícula */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 700px;
+            justify-items: center;
+        }
+
+        .video-grid video {
+            width: 100%;
+            max-width: 640px;
+            height: 360px;
+        }
+
+        .single-video {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-grid">
+        <!-- Primera fila -->
+        <div>
+            <h2>Moto   Deportiva</h2>
+            <video controls>
+                <source src="Vid/Moto1.mp4" type="video/mp4">
+                
+            </video>
+        </div>
+        <div>
+            <h2>Moto Cruiser</h2>
+            <video controls>
+                <source src="Vid/Moto2.mp4" type="video/mp4">
+               
+            </video>
+        </div>
+
+        <!-- Segunda fila -->
+        <div>
+            <h2>Moto Cross</h2>
+            <video controls>
+                <source src="Vid/Moto3.mp4" type="video/mp4">
+                
+            </video>
+        </div>
+        <div>
+            <h2>Moto Turing</h2>
+            <video controls>
+                <source src="Vid/Moto4.mp4" type="video/mp4">
+                
+            </video>
+        </div>
+    </div>
+
+    <!-- Tercera fila con un solo video centrado -->
+    <div class="single-video">
+        <div>
+            <h2>Moto Vintage</h2>
+            <video controls>
+                <source src="Vid/Moto5.mp4" type="video/mp4">
+               
+            </video>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <p>&copy; 2024 Mundo Motos.LUZ BELEN CHIRI POMA.</p>
+</footer>
+</body>
+</html>
+</html>
